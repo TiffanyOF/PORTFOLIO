@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <!--Tiffany 2D-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar.jpg" alt="Tiffany img" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Tiffany</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Estudo no Ibrahim Nobre e estou me desenvolvendo na linguaguem de programação, utilizando o Alura. Usando HTML, CSS e JavaScript. Veja os projetos que já desenvolvi!</p>
+
+         <div>
+        <p>Minhas habilidades</p>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                     <img src="img/projeto-1.png" class="card-img-top" alt="Imagem scarytube">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de video: SCARYTUBE</h5>
+                        <p class="card-text">Este projeto é o portal do medo, onde o terror não têm fim! O site contêm vários vídeos de mistérios, jogos de terror, gameplays, args, creepypasta, suspense e muito mais!
+                        </p>
+                     <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem qf">
+                    <div class="card-body">
+                        <h5 class="card-title">Site interativo: Quente e Frio</h5>
+                        <p class="card-text">Um site interativo da famosa brincadeira Quente e Frio. Onde tem que encontrar a pequena bolinha, onde ela estará andando. E quando chegar mais perto, mais seu circulo diminui. Se divirta tentando encontrar!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem pingpong">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de jogo: Ping-Pong</h5>
+                        <p class="card-text">O ping pong digital é um jogo onde dois jogadores batem uma bola de um lado para o outro. O objetivo é fazer a bola encostar na parede do adversário para ganhar pontos. Se divirta tentando ganhar e seja o melhor!
+                        </p>
+                     <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+   <!-- Modal 1 -->
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site de video: SCARYTUBE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção de vídeos exclusivos
+                        de terror. O objetivo é criar um ambiente virtual onde seja possível compartilhar
+                        seus vídeos preferidos, fornecendo uma descrição breve de cada um, incluindo Scarytuber, o ano
+                        de publicação e uma opção de evento novo.</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de vídeo em uma seção
+                        flexível (.vídeos). Cada vídeo é destacado em seu próprio contêiner (.vídeo), mostrando uma
+                        imagem da capa, descrição e um link de assitir. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores lembrando a Halloween e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração do terror.</p>
+                     <img src="img/projeto-1.png" class="img-fluid w-100"
+                       alt="Imagem scarytube">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://tiffanyof.github.io/SCARYTUBE/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/TiffanyOF/SCARYTUBE/blob/0cb80ffde8f9572efccd10c0e3b6db64536f28be/index.html">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site interativo: Quente e Frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experiência centrada no tema encontrar a bolinha. O objetivo é
+                        engajar os jogadores em testar seus limites para encontrar a bolinha flutuante.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como o Jogador e o Tesouro. O CSS
+                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página.
+                    </p>
+                    <p>Os scripts JavaScript incluem módulos para gerar lugar aleatório, definir as o Jogador e as
+                        lógicas de jogo, como iniciar o jogo, processar as escolhas dos jogadores, e exibir o resultado final.
+                         Este design modular facilita a manutenção e a
+                        expansão do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
+                        na criação de uma experiência interativa.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem qf">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/ImNixyXDD/full/NpJ2eJ4U5">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/ImNixyXDD/sketches/NpJ2eJ4U5">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site de jogo: Ping-Ponga</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma aplicação interativa focada em interagir com um ou dois jogadores.
+                        Utiliza uma série de scripts associados a diferentes atores (sprites) e
+                        cenários para criar uma experiência de aprendizado envolvente. O objetivo é familiarizar
+                        os usuários com tópicos sobre jogos de mesa, através
+                        de interações e visualizações dinâmicas.</p>
+                    <p>Cada ator no projeto possui scripts que definem seu lado em resposta, 
+                        como o início do programa, mover a barra do
+                        usuário, ou pontos recebidas. Estes eventos desencadeiam ações como risadas, diversão e competividade sobre seus amigos
+                        . Por exemplo, a bolinha ir para as paredes, o usuário pode
+                        "receber" um ponto.</p>
+                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
+                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na exploração de conceitos gamers de forma
+                        interativa. O uso de cenários e movimentos ajuda a criar uma
+                        experiência mais rica e memorável, encorajando os usuários a explorar e
+                        interagir com o conteúdo de maneira ativa.</p>
+                    <img src="img/projeto-3.png" alt="Imagem pingpong" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/ImNixyXDD/full/kafYJaWdE">Ver projeto ao vivo</a>
+                     <a href="https://editor.p5js.org/ImNixyXDD/sketches/kafYJaWdE">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/TiffanyOF">GitHub</a>
+        </div>
+          <div>
+        <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/tiffanyof_/F">Instagram</a>
+          </div>   
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

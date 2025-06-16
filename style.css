@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caprasimo&family=Creepster&family=Nosifer&display=swap');
+
+:root {
+    --cor-principal: #4d3b53;
+    --cor-secundaria: rgb(81, 34, 112);
+    --cor-destaque:  #a182ba;
+}
+
+body {
+    font-family: "Agbalumo", system-ui;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
